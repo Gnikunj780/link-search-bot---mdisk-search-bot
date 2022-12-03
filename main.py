@@ -28,7 +28,7 @@ async def start_handler(_, event: Message):
                                 reply_markup=InlineKeyboardMarkup([
 					[InlineKeyboardButton('Our Channel', url='https://t.me/New_Release_Movies_official')],
 					[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/New_Release_Movies_official")],
-					[InlineKeyboardButton("Donation", callback_data="Help_msg"),
+					[InlineKeyboardButton("Help", callback_data="Help_msg"),
                                         InlineKeyboardButton("About", callback_data="About_msg")]
 				]))
 
@@ -121,7 +121,7 @@ async def button(bot, cmd: CallbackQuery):
 					InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/New_Release_Movies_official")
 					],
 					[
-					InlineKeyboardButton("Donation", callback_data="Help_msg"),
+					InlineKeyboardButton("Help", callback_data="Help_msg"),
 					InlineKeyboardButton("About", callback_data="About_msg")
 					]
 				]
