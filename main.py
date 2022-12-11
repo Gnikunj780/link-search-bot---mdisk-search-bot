@@ -27,7 +27,7 @@ async def start_handler(_, event: Message):
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
 					[InlineKeyboardButton('Our Channel', url='https://t.me/New_Release_Movies_official')],
-					[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/New_Release_Movies_Updates")],
+					[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/New_Release_Movies_official")],
 					[InlineKeyboardButton("Help", callback_data="Help_msg"),
                                         InlineKeyboardButton("About", callback_data="About_msg")]
 				]))
